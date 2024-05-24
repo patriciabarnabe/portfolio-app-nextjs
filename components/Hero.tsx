@@ -1,6 +1,5 @@
 //Hero file typically stands for the primary section that is seen when the user first enters the page
 
-import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
@@ -42,13 +41,13 @@ const Hero = () => {
             Hi! I&apos;m Patrícia, a Frontend Developer based in Brazil.
           </p>
 
-          <Link href="#about">
+          <a href="#about">
             <MagicButton
               title="See my work"
               icon={<FaArrowTurnDown />}
               position="right"
             />
-          </Link>
+          </a>
         </div>
       </div>
     </div>
